@@ -4,92 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currículo</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #080808;
-      }
-      header {
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-      nav {
-        background-color: #f8f8f8;
-        padding: 15px;
-        text-align: center;
-        border-bottom: 1px solid #ddd;
-      }
-      nav a {
-        margin: 0 15px;
-        text-decoration: none;
-        color: #333;
-      }
-      aside {
-        background-color: #f0f0f0;
-        padding: 15px;
-        margin: 10px;
-        width: 70%;
-        height: 50%;
-      }
-      footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        position: unset;
-        width: 100%;
-        bottom: 0;
-      }
-      main {
-        display: flex;
-        margin: 20px;
-      }
-      section {
-        flex: 1;
-        padding: 15px;
-        background-color: white;
-        margin: 10px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      h2 {
-        border-bottom: 2px solid #333;
-        padding-bottom: 10px;
-      }
-      ul {
-        list-style-type: none;
-        padding: 0;
-      }
-      ul li {
-        padding: 5px 0;
-      }
-      .thumbnail {
-        width: 85px;
-        height: 85px;
-        object-fit: cover;
-        border: 2px solid #000;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-      aside p {
-        font-size: 25px;
-      }
-      section {
-        font-size: 18px;
-      }
-      section a {
-        text-decoration: none;
-        color: rgb(14, 30, 170);
-      }
-      section p {
-        font-size: 18px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -97,14 +12,16 @@
     </header>
 
     <nav>
-      <a href="#informacoes-pessoais">Informações Pessoais</a>
-      <a href="#resumo-profissional">Resumo Profissional</a>
-      <a href="#formacao-academica">Formação Acadêmica</a>
-      <a href="#experiencia-profissional">Experiência Profissional</a>
-      <a href="#habilidades-tecnicas">Habilidades Técnicas</a>
-      <a href="#idiomas">Idiomas</a>
-      <a href="#cursos">Cursos</a>
-      <a href="#portfolio">Portfólio</a>
+      <strong>
+        <a href="#informacoes-pessoais">Informações Pessoais</a>
+        <a href="#resumo-profissional">Resumo Profissional</a>
+        <a href="#formacao-academica">Formação Acadêmica</a>
+        <a href="#experiencia-profissional">Experiência Profissional</a>
+        <a href="#habilidades-tecnicas">Habilidades Técnicas</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#portfolio">Portfólio</a>
+      </strong>
     </nav>
 
     <main>
@@ -151,7 +68,7 @@
           Estudante de graduação em Sistemas de Informação com foco em
           desenvolvimento de software. Busco oportunidades para resolver
           problemas, aplicar e aprimorar meus conhecimentos em projetos e
-          desemvolver ainda mais minhas hard skills.
+          desenvolver ainda mais minhas hard skills.
         </p>
 
         <h2 id="formacao-academica">3. Formação Acadêmica</h2>
@@ -161,15 +78,15 @@
           </li>
           <li><strong>Curso:</strong> Sistemas de Informação</li>
           <li><strong>Período:</strong> 2022 - 2026</li>
-          <li><strong>Média ponderada:</strong> 8.2/10</li>
+          <li><strong>Média ponderada:</strong> 8.2 de 10</li>
         </ul>
 
         <h2 id="experiencia-profissional">4. Experiência Profissional</h2>
         <p>
           Atualmente trabalho em projetos pessoais buscando aplicar meus
-          conhecimentos e adquirir uma experiência de uso dos meus codigos
-          de uma modo que esteja mais perto de um dia a dia real. Meu foco
-          é trabalhar no desenvolvimento backend de aplicações web, mas estou 
+          conhecimentos e adquirir uma experiência de uso dos meus codigos de
+          uma modo que esteja mais perto de um dia a dia real. Meu foco é
+          trabalhar no desenvolvimento backend de aplicações web, mas estou
           aberto a aprender aquilo que for preciso para me destacar no mercado.
         </p>
 
@@ -189,16 +106,36 @@
         <h2 id="cursos">7. Cursos e Certificações</h2>
         <ul>
           <li>
-            <strong><a href="https://ude.my/UC-ec1d2538-93d6-46ef-937f-18dba2d93ed9"> C# COMPLETO Programação Orientada a Objetos + Projetos - Udemy</a></strong> <br>
-            <strong><a href="https://loiane.training/certificado/FlQLYfEZ9LDxE1y40Uma">Estrutura de Dados - Loiane Traing</a></strong> <br>
-            <strong><a href="https://www.credly.com/badges/632dd8e8-4583-4140-81a2-0ae837e94db8/linked_in_profile"> Essentials 1 - Cisco</a></strong>
+            <strong
+              ><a href="https://ude.my/UC-ec1d2538-93d6-46ef-937f-18dba2d93ed9">
+                C# COMPLETO Programação Orientada a Objetos + Projetos -
+                Udemy</a
+              ></strong
+            >
+            <br />
+            <strong
+              ><a
+                href="https://loiane.training/certificado/FlQLYfEZ9LDxE1y40Uma"
+                >Estrutura de Dados - Loiane Traing</a
+              ></strong
+            >
+            <br />
+            <strong
+              ><a
+                href="https://www.credly.com/badges/632dd8e8-4583-4140-81a2-0ae837e94db8/linked_in_profile"
+              >
+                Essentials 1 - Cisco</a
+              ></strong
+            >
           </li>
         </ul>
 
         <h2 id="portfolio">8. Portfólio e Repositório de Códigos</h2>
         <p>
           Confira meus projetos no
-          <a href="https://github.com/lucas-viana" target="_blank">GitHub <img src="/Imagens/github.png" alt="logotipo-github"></a>
+          <a href="https://github.com/lucas-viana" target="_blank"
+            >GitHub <img src="/Imagens/github.png" alt="logotipo-github"
+          /></a>
         </p>
       </section>
 
@@ -210,7 +147,7 @@
         />
         <h2>Sobre Mim</h2>
         <p>
-          Graduando do 3° período de Sistemas de Informação, pelo IFSULDEMINAS -
+          Graduando do 4° período de Sistemas de Informação, pelo IFSULDEMINAS -
           Campus Machado. Sempre fui apaixonado por tecnologia e hoje, com 25
           anos, busco através do meu conhecimento auxiliar e agregar valor de
           alguma forma a vida das pessoas. Devido a essa facilidade e gosto em
@@ -226,14 +163,12 @@
           resolver problemas, sempre fico intrigado com questões mal resolvidas
           e sempre busco encontrar uma solução efetiva para o problema, busco
           sempre aproveitar ao máximo o meu tempo para alcançar o máximo de
-          produtividade. Graduando do 4° período de Sistemas de Informação, pelo
-          IFSULDEMINAS - Campus Machado.
+          produtividade.
           <br />
           <img
             src="/Imagens/programando.png"
             alt="em construçao"
             title="Contruindo..."
-            aling="center"
             height="30%"
             width="30%"
           />
